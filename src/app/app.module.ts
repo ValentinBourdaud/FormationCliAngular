@@ -11,6 +11,8 @@ import { IfComponent } from './if/if.component';
 import { ForComponent } from './for/for.component';
 import { NgstyleComponent } from './ngstyle/ngstyle.component';
 import { PipesComponent } from './pipes/pipes.component';
+import { FormationItemComponent } from './formation-item/formation-item.component';
+import { PlaygroundComponent } from './playground/playground.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +25,9 @@ import { PipesComponent } from './pipes/pipes.component';
     IfComponent,
     ForComponent,
     NgstyleComponent,
-    PipesComponent
+    PipesComponent,
+    FormationItemComponent,
+    PlaygroundComponent
   ],
   imports: [
     BrowserModule
