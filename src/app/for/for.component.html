@@ -6,7 +6,7 @@
 
 
 <ul>
-  <li *ngFor="let formation of formations; index as i; first as f ; last as l ; even as e"> 1
+  <li *ngFor="let formation of formations; index as i; first as f ; last as l ; even as e"> 
   <p [style.color]="getColorByElement(f, l)" [style.background]="getBgColorByElement(e)">{{i}} - {{ formation.nom }} {{formation.description}}</p>
 </li>
   </ul>

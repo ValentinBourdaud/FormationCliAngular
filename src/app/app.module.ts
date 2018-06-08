@@ -9,6 +9,7 @@ import { EvenementComponent } from './evenement/evenement.component';
 import { VaribaleComponent } from './varibale/varibale.component';
 import { IfComponent } from './if/if.component';
 import { ForComponent } from './for/for.component';
+import { NgstyleComponent } from './ngstyle/ngstyle.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { ForComponent } from './for/for.component';
     EvenementComponent,
     VaribaleComponent,
     IfComponent,
-    ForComponent
+    ForComponent,
+    NgstyleComponent
   ],
   imports: [
     BrowserModule
