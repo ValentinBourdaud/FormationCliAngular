@@ -14,6 +14,8 @@ import { PipesComponent } from './pipes/pipes.component';
 import { FormationItemComponent } from './formation-item/formation-item.component';
 import { PlaygroundComponent } from './playground/playground.component';
 import { FormationItemOutputComponent } from './formation-item-output/formation-item-output.component';
+import { LifecycleComponent } from './lifecycle/lifecycle.component';
+import { LifecycleOnchangeComponent } from './lifecycle-onchange/lifecycle-onchange.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +31,9 @@ import { FormationItemOutputComponent } from './formation-item-output/formation-
     PipesComponent,
     FormationItemComponent,
     PlaygroundComponent,
-    FormationItemOutputComponent
+    FormationItemOutputComponent,
+    LifecycleComponent,
+    LifecycleOnchangeComponent
   ],
   imports: [
     BrowserModule

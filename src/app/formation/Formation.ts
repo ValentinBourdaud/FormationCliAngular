@@ -5,9 +5,11 @@ export default class Formation {
     private _dateDebut: Date;
     private _dateFin: Date;
 
-    constructor(nom: string, description: string, price?: number, dateDebut?: Date, dateFin?: Date) {
+    constructor(nom: string, description?: string, price?: number, dateDebut?: Date, dateFin?: Date) {
         this._nom = nom;
-        this._description = description;
+        if (description) {
+            this._description = description;
+        }
 
         if (price) {
             this._price = price;
