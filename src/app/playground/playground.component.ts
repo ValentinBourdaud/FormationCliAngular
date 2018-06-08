@@ -11,6 +11,10 @@ export class PlaygroundComponent implements OnInit {
   formations:Array<Formation> = [];
 
 
+  handleFormationSelected(formation) {
+    alert (`${formation.nom}`)    
+}
+
   constructor() { }
 
   ngOnInit() {
