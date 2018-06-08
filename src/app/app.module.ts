@@ -10,6 +10,7 @@ import { VaribaleComponent } from './varibale/varibale.component';
 import { IfComponent } from './if/if.component';
 import { ForComponent } from './for/for.component';
 import { NgstyleComponent } from './ngstyle/ngstyle.component';
+import { PipesComponent } from './pipes/pipes.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { NgstyleComponent } from './ngstyle/ngstyle.component';
     VaribaleComponent,
     IfComponent,
     ForComponent,
-    NgstyleComponent
+    NgstyleComponent,
+    PipesComponent
   ],
   imports: [
     BrowserModule
